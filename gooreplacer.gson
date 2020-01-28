@@ -1,0 +1,40 @@
+{
+  "createBy": "http://liujiacai.net/gooreplacer/",
+  "version": "3.11.0",
+  "createAt": "2020/1/27 下午9:47:26",
+  "redirect-rules": [
+    {
+      "src": "www.oxfordlearnersdictionaries.com/required.js",
+      "kind": "wildcard",
+      "dst": "cdn.jsdelivr.net/gh/ChenYibai/misc@master/www.oxfordlearnersdictionaries.com-required.js",
+      "enable": true
+    },
+    {
+      "src": "apis.google.com/js/plusone.js",
+      "kind": "wildcard",
+      "dst": "cdn.jsdelivr.net/gh/jiacai2050/gooreplacer@gh-pages/proxy/plusone.js",
+      "enable": true
+    },
+    {
+      "src": "apis.google.com/js/api.js",
+      "kind": "wildcard",
+      "dst": "cdn.jsdelivr.net/gh/jiacai2050/gooreplacer@gh-pages/proxy/api.js",
+      "enable": true
+    },
+    {
+      "src": "platform.twitter.com/widgets.js",
+      "kind": "wildcard",
+      "dst": "cdn.jsdelivr.net/gh/jiacai2050/gooreplacer@gh-pages/proxy/widgets.js",
+      "enable": true
+    },
+    {
+      "src": "code.jquery.com/jquery-1.11.3.js",
+      "kind": "wildcard",
+      "dst": "cdn.bootcss.com/jquery/3.4.1/jquery.min.js",
+      "enable": true
+    }
+  ],
+  "cancel-rules": [],
+  "request-headers": [],
+  "response-headers": []
+}
