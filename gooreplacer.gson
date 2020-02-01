@@ -1,7 +1,7 @@
 {
   "createBy": "http://liujiacai.net/gooreplacer/",
   "version": "3.11.0",
-  "createAt": "2020/2/1 下午4:54:06",
+  "createAt": "2020/2/1 下午8:49:32",
   "redirect-rules": [
     {
       "src": "regex101.com/static/bundle.js",
@@ -10,7 +10,7 @@
       "enable": true
     },
     {
-      "src": "regex101.com/static/vendor.d66254aa.chunk.js",
+      "src": "regex101.com/static/vendor.*.chunk.js",
       "kind": "wildcard",
       "dst": "cdn.jsdelivr.net/gh/ChenYibai/misc@master/regex101.com-vendor.d66254aa.chunk.js",
       "enable": true
@@ -43,6 +43,12 @@
       "src": "www.oxfordlearnersdictionaries.com/required.js",
       "kind": "wildcard",
       "dst": "cdn.jsdelivr.net/gh/ChenYibai/misc@master/www.oxfordlearnersdictionaries.com-required.js",
+      "enable": true
+    },
+    {
+      "src": "regex101.com/static/bundle.*.css",
+      "kind": "wildcard",
+      "dst": "cdn.jsdelivr.net/gh/ChenYibai/misc@master/regex101.com-bundle.0c25b64bab40878ef317.css",
       "enable": true
     }
   ],
