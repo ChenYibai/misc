@@ -52,8 +52,8 @@
       "enable": true
     },
     {
-      "src": "www.geogebra.org/apps/latest/web3d/.*\.cache.js",
-      "kind": "wildcard",
+      "src": "www\.geogebra\.org\/apps\/latest\/web3d\/.*\.cache\.js",
+      "kind": "regexp",
       "dst": "cdn.jsdelivr.net/gh/ChenYibai/misc@master/geogebra.com-507E9D90042019D493A3A2338F45B18C.cache.edited.js",
       "enable": true
     }
