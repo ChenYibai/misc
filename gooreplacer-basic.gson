@@ -6,7 +6,7 @@
     {
       "src": "www\\.geogebra\\.org\\/apps\\/latest\\/webSimple\\/(?!.*\\/).*\\.cache\\.js",
       "kind": "regexp",
-      "dst": "cdn.jsdelivr.net/gh/ChenYibai/misc@ChenYibai-patch-1/geogebra.com-7D66C9F0D6F7744DCD01EBB86843EBD4.cache.edited.js",
+      "dst": "cdn.jsdelivr.net/gh/ChenYibai/misc@master/geogebra.com-7D66C9F0D6F7744DCD01EBB86843EBD4.cache.edited.js",
       "enable": true
     },
     {
