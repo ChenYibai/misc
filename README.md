@@ -1,4 +1,6 @@
 # misc
 Misc.
-### Gooreplacer
-Install browser extension '**gooreplacer**' on your browser. Turn to 'Online-rules' tab, enter ```https://cdn.jsdelivr.net/gh/ChenYibai/misc@master/gooreplacer-basic.gson``` in the input bar. Then click the button 'Update Now' to start using it.
+### Internet accelerate
+Redirect the original files to the files in ```internet-accelerate``` folder using a browser extension like **Gooreplacer** & a CDN like <https://www.jsdelivr.com/>.
+### Aria2 configured
+Just download ```aria2-1.35.0-configured.zip``` and run ```launch.bat```. You will see the UI in your browser.
